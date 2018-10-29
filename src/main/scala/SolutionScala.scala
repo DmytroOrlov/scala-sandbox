@@ -1,9 +1,9 @@
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-import Solution4._
+import SolutionScala._
 
-class Solution4 {
+class SolutionScala {
 
   def solution(s: String): String = {
     s.split("\n").map { sub =>
@@ -15,7 +15,7 @@ class Solution4 {
 
 }
 
-object Solution4 {
+object SolutionScala {
   val formatter: DateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
   val before: LocalDate = LocalDate.parse("1995-10-13", formatter)
 }
