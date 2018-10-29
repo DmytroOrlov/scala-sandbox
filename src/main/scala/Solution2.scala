@@ -14,7 +14,9 @@ object Solution2 {
         start = i
       }
     }
-    res._1
+    if (a.length - start > res._2)
+      start
+    else res._1
   }
 
 }
